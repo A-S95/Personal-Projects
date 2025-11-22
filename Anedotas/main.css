@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(/Projetos/Anedotas/soundscapes__clair_de_lune_by_arkitecturalragnarok_did1iov-fullview.jpg);
+}
+
+h1 {
+  font-size: 60px;
+  color: #324fa0;
+}
+
+.perguntar {
+  font-size: 40px;
+  color: #000000;
+  margin-bottom: 30px;
+  width: 80%;
+  padding-left: 13%;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.884);
+  padding: 20px;
+  border-radius: 70px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  text-align: center;
+  opacity: calc(95%);
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 50%;
+  box-sizing: border-box;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  border-radius: 330px;
+}
+
+button {
+  background-color: #324fa0;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.9s ease;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #76befa;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
